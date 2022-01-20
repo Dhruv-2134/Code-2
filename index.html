@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment- 3</title>
+</head>
+<body>
+    <h2>ASSIGNMENT 3</h2>
+    <form>
+        <b>First Name:-<input name="First Name" type="text" required></b>
+        <b>Last Name:-<input name="Last Name" type="text" required></b>
+        <hr>
+        <b>I love:-</b>
+        <p>
+            <input name="choices" type="radio" id="chicken" value="Eating_Chickens" required>
+            <label for="chicken">Eating Chickens </label>
+        </p>
+        
+        <p>
+            <input name="choices" type="radio" id="travelling" value="Travelling" required>
+            <label for="travelling">Travelling </label>
+        </p>
+
+        <p>
+            <input name="choices" type="radio" id="developing" value="Developing" required>
+            <label for="developing">Developing </label>
+        </p>
+            
+        <hr>
+
+        <input name="materials" id="laptop" type="checkbox" value="have_Laptop">
+        <label for="laptop">I have a Laptop</label><br>
+
+        <input name="materials" id="phone" type="checkbox" value="have_Mobile">
+        <label for="laptop">I have a Mobile Phone</label><br>
+
+        <input name="materials" id="desktop" type="checkbox" value="have_Desktop">
+        <label for="laptop">I have a Desktop</label>
+
+        <hr>
+
+        <b>Email:-<input name="Email" type="email" value="" required></b>
+        <b>Password:-<input name="Password" type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{5,}" title="at least one number and one uppercase and lowercase letter, and at least 5 or more characters" title="Please lengthen this text character to 5 more characters or more" value="" required></b>
+
+        <hr>
+
+        <b>Tell us your age:-</b>
+
+        <select name="Select age">
+            <option>Select age</option>
+            <option value="1-10">1-10</option>
+            <option value="10-20">10-20</option>
+            <option value="20-30">20-30</option>
+            <option value="30-40">30-40</option>
+            <option value="40-50">40-50</option>
+            <option value="50-60">50-60</option>
+        </select>
+
+        <hr>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
